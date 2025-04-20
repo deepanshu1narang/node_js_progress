@@ -1,0 +1,21 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "this is so that I can track my daily progress onn github",
+  "homepage": "https://github.com/deepanshu1narang/node_js_progress#readme",
+  "bugs": {
+    "url": "https://github.com/deepanshu1narang/node_js_progress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepanshu1narang/node_js_progress.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "tut_01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index"
+  }
+}
