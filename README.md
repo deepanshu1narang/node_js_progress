@@ -29,3 +29,22 @@ blocking requests require a thread pool (ie some workers)
 generally a thread pool has 4 workers
 max workers it can have the number of cores in cpu (or the number of cpu)
 how o calculate ---> os.cpus().length
+
+# Day 2 -- 21 apr 2025> ::===>>>
+
+Creating HTTP server
+handling url in node js
+url = protocol + domain + path + query parameters
+example:
+https://wwww.google.com/search?q=javascript+interview+questions&source=hp&ei=Ndffd-DKsd
+Protocol => https:
+Domain => www.google.com
+Path => /search
+Query Params =>
+q = javascript+interview+questions
+source = hp
+ei = Ndffd-DKsd
+
+request.url (request a param from createServer callback function that handles requests) doesn;t know that after ? it starts query params... basically it doesn't know the breakdown
+
+for this we need a module called url (from outside)
