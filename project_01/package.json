@@ -1,5 +1,5 @@
 {
-  "name": "httpserver",
+  "name": "rest_api",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -8,11 +8,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "express": "node expressApp"
+    "start": "node index"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "url": "^0.11.4"
+    "express": "^5.1.0"
   }
 }
