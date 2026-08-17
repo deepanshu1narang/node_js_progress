@@ -4,7 +4,7 @@ const url = require("url");
 // starting with http server
 
 const myServerHandlerFunction = (request, response) => {
-    // console.log(request.headers);
+    console.log(request.headers);
 
     if (request.url === "/favicon.ico")
         return response.end();

@@ -33,4 +33,6 @@ const writeHeyThere = () => {
     fs.appendFileSync("./text.txt", "\nhey there");
 }
 
+const  fsFunctionsWorthKnowing = () => `readFile, writeFile, appendFile, readdir, stat/lstat, mkdir (with {recursive: true}), rm (with {recursive: true, force: true} — the modern replacement for rmdir), rename, copyFile, unlink, access, watch.`;
+
 module.exports = { fsModuleSync, fsModuleAsync, fnReadFileSync, fnReadFileAsync, fnAppendFileSync, writeHeyThere }
