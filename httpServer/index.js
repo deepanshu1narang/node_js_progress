@@ -4,7 +4,7 @@ const url = require("url");
 // starting with http server
 
 const myServerHandlerFunction = (request, response) => {
-    console.log(request.headers);
+    // console.log(request.headers);
 
     if (request.url === "/favicon.ico")
         return response.end();
@@ -12,7 +12,7 @@ const myServerHandlerFunction = (request, response) => {
     const myUrl = url.parse(request.url, true);
     // 2nd arg given as true... so that we have a separate object for query
     const log = `${Date.now()}: ${request.method} ${request.url} new request received\r\n`;
-    fs.appendFile("./logs.txt", log, ((error, data) => {
+    fs.appendFile("./logs.txt", log, ((error, data) => { 
         switch (myUrl.pathname) {
             case "/":
                 if (request.method === "GET")

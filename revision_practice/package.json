@@ -1,18 +1,16 @@
 {
-  "name": "httpserver",
+  "name": "revision_practice",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
-  "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --watch index",
-    "express": "node expressApp"
+    "start:server": "node --watch server",
+    "start:serverWithExpress": "node --watch serverWithExpress"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "url": "^0.11.4"
+    "express": "^5.2.1"
   }
 }

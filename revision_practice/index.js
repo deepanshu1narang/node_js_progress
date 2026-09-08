@@ -1,4 +1,5 @@
 const fs = require('fs');
+const fsp = require('fs/promises');
 
 console.log("hello world");
 
@@ -10,7 +11,7 @@ fs.writeFile("abc2.txt", "Hello world with fs asynchronously", (err) => {
 });
 
 const result = fs.readFileSync("./abc1.txt", "utf-8");
-console.log("readAsync>>>", result);
+console.log("readSync>>>", result);
 
 fs.readFile("./abc2.txt", "utf-8", (err, res) => {
     if(err)
@@ -21,4 +22,14 @@ fs.readFile("./abc2.txt", "utf-8", (err, res) => {
 
     else
         console.log("something unexpected happened!!");
-})
+});
+
+const asyncResult = async () => {
+    const result = await fsp.readFile("./abc1.txt", "utf-8");
+    console.log("async read>>", result);
+
+    const result2 = await fsp.readFile("./abc2.txt", "utf-8");
+    console.log("async read2>>", result2);
+}
+
+asyncResult();
