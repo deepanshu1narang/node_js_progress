@@ -172,7 +172,7 @@ app.route("/api/products/:id")
         // logApiCalled(req);
 
         const id = Number(req.params.id);
-        const product = products.findIndex(product => product.id === id);
+        const product = products.find(product => product.id === id);
 
         return res.status(200).json({
             status: product ? 200 : 404,

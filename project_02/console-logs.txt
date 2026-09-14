@@ -1,332 +1,135 @@
 {
-  "url": "/api/users?page=1&limit=15",
-  "method": "GET",
-  "path": "/api/users",
-  "params": {},
-  "query": {
-    "page": "1",
-    "limit": "15"
-  },
-  "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "bba4ddcb-f6e5-4a7c-86e0-bb146d896bef",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:09:34 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users?page=1&limit=41",
-  "method": "GET",
-  "path": "/api/users",
-  "params": {},
-  "query": {
-    "page": "1",
-    "limit": "41"
-  },
-  "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "d9fe99c2-7ab2-408b-9993-8b4c083968c3",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:11:27 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users",
-  "method": "GET",
-  "path": "/api/users",
+  "url": "/users",
+  "method": "POST",
+  "path": "/users",
   "params": {},
   "query": {},
   "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "429e11b5-0c57-4d1f-b1c7-b18c0e217ae8",
+    "postman-token": "d3bcfa00-f4a6-4c34-9fee-de437163ac1a",
+    "content-length": "0",
     "host": "localhost:8000",
+    "user-agent": "PostmanRuntime/2.5.0",
+    "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "connection": "keep-alive"
   },
   "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:16:14 GMT+0530 (India Standard Time)"
+  "requestTime": "Wed Sep 09 2026 00:43:44 GMT+0530 (India Standard Time)"
 }
 ______________________________________________
 {
-  "url": "/api/users?page=1&limit=41",
+  "url": "/users",
   "method": "GET",
-  "path": "/api/users",
+  "path": "/users",
   "params": {},
-  "query": {
-    "page": "1",
-    "limit": "41"
-  },
+  "query": {},
   "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "cff41c34-df03-4c45-b9dc-158acb7c25d4",
+    "postman-token": "f6038593-b51c-48ce-b290-ddc5392ea589",
     "host": "localhost:8000",
+    "user-agent": "PostmanRuntime/2.5.0",
+    "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "connection": "keep-alive"
   },
   "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:16:21 GMT+0530 (India Standard Time)"
+  "requestTime": "Wed Sep 09 2026 00:43:49 GMT+0530 (India Standard Time)"
 }
 ______________________________________________
 {
-  "url": "/api/users?page=1&limit=11",
+  "url": "/users",
   "method": "GET",
-  "path": "/api/users",
+  "path": "/users",
   "params": {},
-  "query": {
-    "page": "1",
-    "limit": "11"
-  },
+  "query": {},
   "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "f3bc329f-5642-4616-a7f5-ed182c3e3d98",
+    "postman-token": "03557a45-a755-45a5-bc6c-fdc14f8c718b",
     "host": "localhost:8000",
+    "user-agent": "PostmanRuntime/2.5.0",
+    "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "connection": "keep-alive"
   },
   "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:16:25 GMT+0530 (India Standard Time)"
+  "requestTime": "Wed Sep 09 2026 00:45:10 GMT+0530 (India Standard Time)"
 }
 ______________________________________________
 {
-  "url": "/api/users?page=4&limit=31",
+  "url": "/api/products/:id",
   "method": "GET",
-  "path": "/api/users",
+  "path": "/api/products/:id",
   "params": {},
-  "query": {
-    "page": "4",
-    "limit": "31"
-  },
+  "query": {},
   "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "2d66e3d9-cc86-42e3-82b4-4551d6bd43c9",
+    "postman-token": "f6dd3fbb-3de6-4dbe-a020-f7438c421d32",
     "host": "localhost:8000",
+    "user-agent": "PostmanRuntime/2.5.0",
+    "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "connection": "keep-alive"
   },
   "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:21:43 GMT+0530 (India Standard Time)"
+  "requestTime": "Wed Sep 09 2026 00:49:53 GMT+0530 (India Standard Time)"
 }
 ______________________________________________
 {
-  "url": "/api/users?page=4&limit=3",
+  "url": "/api/products/3",
   "method": "GET",
-  "path": "/api/users",
+  "path": "/api/products/3",
   "params": {},
-  "query": {
-    "page": "4",
-    "limit": "3"
-  },
+  "query": {},
   "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "a9265507-5a83-4039-8d3a-243ea361bda4",
+    "postman-token": "888fa5d0-2d60-49ee-a918-650ddd0405b7",
     "host": "localhost:8000",
+    "user-agent": "PostmanRuntime/2.5.0",
+    "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "connection": "keep-alive"
   },
   "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:24:53 GMT+0530 (India Standard Time)"
+  "requestTime": "Wed Sep 09 2026 00:50:09 GMT+0530 (India Standard Time)"
 }
 ______________________________________________
 {
-  "url": "/profile",
+  "url": "/api/products/3",
   "method": "GET",
-  "path": "/profile",
+  "path": "/api/products/3",
+  "params": {},
+  "query": {},
+  "headers": {
+    "postman-token": "63423c75-28c4-4a03-b2de-1d22abfd2a58",
+    "host": "localhost:8000",
+    "user-agent": "PostmanRuntime/2.5.0",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "ip": "::1",
+  "requestTime": "Wed Sep 09 2026 00:50:33 GMT+0530 (India Standard Time)"
+}
+______________________________________________
+{
+  "url": "/favicon.ico",
+  "method": "GET",
+  "path": "/favicon.ico",
   "params": {},
   "query": {},
   "headers": {
     "host": "localhost:8000",
     "connection": "keep-alive",
-    "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
-    "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": "\"macOS\"",
-    "upgrade-insecure-requests": "1",
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "sec-fetch-site": "none",
-    "sec-fetch-mode": "navigate",
-    "sec-fetch-user": "?1",
-    "sec-fetch-dest": "document",
-    "accept-encoding": "gzip, deflate, br, zstd",
-    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8"
-  },
-  "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:30:01 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/.well-known/appspecific/com.chrome.devtools.json",
-  "method": "GET",
-  "path": "/.well-known/appspecific/com.chrome.devtools.json",
-  "params": {},
-  "query": {},
-  "headers": {
-    "host": "localhost:8000",
-    "connection": "keep-alive",
+    "sec-ch-ua": "\"Brave\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "sec-gpc": "1",
+    "accept-language": "en-GB,en;q=0.9",
     "sec-fetch-site": "same-origin",
     "sec-fetch-mode": "no-cors",
-    "sec-fetch-dest": "empty",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-    "accept-encoding": "gzip, deflate, br, zstd",
-    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8"
+    "sec-fetch-dest": "image",
+    "referer": "http://localhost:8000/about?name=%22sss%22",
+    "accept-encoding": "gzip, deflate, br, zstd"
   },
   "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:30:01 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/profile",
-  "method": "GET",
-  "path": "/profile",
-  "params": {},
-  "query": {},
-  "headers": {
-    "host": "localhost:8000",
-    "connection": "keep-alive",
-    "cache-control": "max-age=0",
-    "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"macOS\"",
-    "upgrade-insecure-requests": "1",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "sec-fetch-site": "none",
-    "sec-fetch-mode": "navigate",
-    "sec-fetch-user": "?1",
-    "sec-fetch-dest": "document",
-    "accept-encoding": "gzip, deflate, br, zstd",
-    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "if-none-match": "W/\"33-5eKH2bMKGgHmO3H3UIfuN5X3wRo\""
-  },
-  "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:30:40 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/.well-known/appspecific/com.chrome.devtools.json",
-  "method": "GET",
-  "path": "/.well-known/appspecific/com.chrome.devtools.json",
-  "params": {},
-  "query": {},
-  "headers": {
-    "host": "localhost:8000",
-    "connection": "keep-alive",
-    "sec-fetch-site": "same-origin",
-    "sec-fetch-mode": "no-cors",
-    "sec-fetch-dest": "empty",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-    "accept-encoding": "gzip, deflate, br, zstd",
-    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8"
-  },
-  "ip": "::1",
-  "requestTime": "Mon Sep 07 2026 01:30:40 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users/9",
-  "method": "GET",
-  "path": "/api/users/9",
-  "params": {},
-  "query": {},
-  "headers": {
-    "x-app-name": "abcd",
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "edc55059-99fb-4133-99eb-041de273b7f7",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Tue Sep 08 2026 01:37:48 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users/9",
-  "method": "GET",
-  "path": "/api/users/9",
-  "params": {},
-  "query": {},
-  "headers": {
-    "x-app-name": "mb-pro",
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "eb570e3a-fb34-423f-b49c-511c1b6b45af",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Tue Sep 08 2026 02:18:15 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users/9",
-  "method": "GET",
-  "path": "/api/users/9",
-  "params": {},
-  "query": {},
-  "headers": {
-    "x-app-name": "mb-pro-sales",
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "a9a64d21-9fff-41c6-8fac-9cffef4cda34",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Tue Sep 08 2026 02:18:21 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users/9",
-  "method": "GET",
-  "path": "/api/users/9",
-  "params": {},
-  "query": {},
-  "headers": {
-    "x-app-name": "mbpro-sales",
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "dbca636c-b043-40f5-989b-d1b42e11cd07",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Tue Sep 08 2026 02:18:29 GMT+0530 (India Standard Time)"
-}
-______________________________________________
-{
-  "url": "/api/users/9",
-  "method": "GET",
-  "path": "/api/users/9",
-  "params": {},
-  "query": {},
-  "headers": {
-    "user-agent": "PostmanRuntime/7.56.1",
-    "accept": "*/*",
-    "postman-token": "0af383ff-9775-4f80-b355-e3c1d35087bd",
-    "host": "localhost:8000",
-    "accept-encoding": "gzip, deflate, br",
-    "connection": "keep-alive"
-  },
-  "ip": "::1",
-  "requestTime": "Tue Sep 08 2026 02:18:36 GMT+0530 (India Standard Time)"
+  "requestTime": "Wed Sep 09 2026 01:34:52 GMT+0530 (India Standard Time)"
 }
 ______________________________________________
