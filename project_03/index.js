@@ -61,7 +61,6 @@ app
     const id = req.params.id;
 
     const user = await User.findById(id);
-    console.log(user, "<<<user");
 
     if (!user)
       return res.status(404).json({
